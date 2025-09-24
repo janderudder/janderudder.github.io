@@ -30,6 +30,12 @@
       padding-bottom: 0.2em;
       margin-top: 1.5em;
     }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    ul > li { margin: 0; }
   </style>
   <link rel="meta" type="application/rdf+xml" href="foaf.rdf">
 </head>
@@ -37,7 +43,7 @@
   <header>
     <img src="https://avatars.githubusercontent.com/u/39810873?v=4" alt="Photo de profil">
     <h1>Jan De Rudder</h1>
-    <p>Page personnelle</>
+    <p>Page personnelle</p>
   </header>
 
   <section>
@@ -50,19 +56,19 @@
 
   <section>
     <h2>Contact</h2>
-    <p>
       <p>Retrouvez-moi ici 👇</p>
-      Courriel : <a href="mailto:tonmail@example.org">janderudder@nospam.org</a><br>
-      Profil GitHub : <a href="https://github.com/janderudder">github.com/janderudder</a>
-    </p>
+      <ul>
+        <li>Courriel : <a href="mailto:tonmail@example.org">janderudder@nospam.org</a></li>
+        <li>Profil GitHub : <a href="https://github.com/janderudder">github.com/janderudder</a></li>
+      </ul>
   </section>
 
   <section>
     <h2>Métadonnées</h2>
     <p>Si vous êtes un robot, c'est par ici 🤖</p>
-    <p>
-      FOAF : <a href="foaf.rdf">foaf.rdf</a>
-    </p>
+    <ul>
+      <li>FOAF : <a href="foaf.rdf">foaf.rdf</a></li>
+    </ul>
   </section>
 </body>
 </html>
