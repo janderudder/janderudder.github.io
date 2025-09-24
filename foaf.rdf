@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+  <foaf:Person rdf:about="https://janderudder.github.io/foaf.rdf#me">
+    <foaf:name>Jan De Rudder</foaf:name>
+    <foaf:givenName>Jan</foaf:givenName>
+    <foaf:familyName>De Rudder</foaf:familyName>
+    <foaf:mbox rdf:resource="mailto:janderudder@nospam.org"/>
+    <foaf:homepage rdf:resource="https://janderudder.github.io/"/>
+    <foaf:img rdf:resource="https://avatars.githubusercontent.com/u/39810873?v=4"/>
+    <foaf:account>
+      <foaf:OnlineAccount>
+        <foaf:accountServiceHomepage rdf:resource="https://github.com/"/>
+        <foaf:accountName>janderudder</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>
+  </foaf:Person>
+
+</rdf:RDF>
